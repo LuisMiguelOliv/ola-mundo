@@ -3,15 +3,20 @@
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
-    align-itens: center;
+    align-items: center;
     justify-content: center;
 }
 html,body {
     margin: 0;
     padding: 0;
     height: 100%;
+      background-image: url(https://th.bing.com/th/id/OIP.chyKHpzFRNNB66ObzHwOsQHaEX?rs=1&pid=ImgDetMain), url(https://th.bing.com/th/id/OIP.hPGmzAk4kkqjwyXH_h2RMQHaEX?rs=1&pid=ImgDetMain), url(https://th.bing.com/th/id/OIP.QbYH68IRATGAvKeBb2V9dgHaEo?rs=1&pid=ImgDetMain), url(https://th.bing.com/th/id/OIP.nUdthKDyL9Q0aqjzoUvIEwHaEX?w=280&h=180&c=7&r=0&o=5&pid=1.7), url(https://th.bing.com/th/id/OIP.Pq1J7SEAxmBNiqe6O3iwlQHaG0?rs=1&pid=ImgDetMain), url(https://th.bing.com/th/id/R.710bc9039ebc4005682ada2944dcbc91?rik=buRbZ4y5CEW2Tg&pid=ImgRaw&r=0);
+      background-position: right bottom, left top, left bottom, right top, top, right;
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+      background-color: crimson;
 }
 .msg {
   font-size: 64px;
-
+  color: white;
 }
+
